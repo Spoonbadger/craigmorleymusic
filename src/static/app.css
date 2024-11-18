@@ -1,6 +1,6 @@
 /* Body and background */
 body {
-  background-image: url('public/images/Screenshot 2023-05-30 at 6.17.57 PM.png');
+  background-image: url('/images/Screenshot 2023-05-30 at 6.17.57 PM.png');
   background-attachment: fixed;
   place-items: center;
   background-position: bottom right;
