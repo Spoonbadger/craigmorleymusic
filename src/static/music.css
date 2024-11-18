@@ -1,0 +1,27 @@
+.music-contents {
+  display: flex;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 5% 0 0 10%;
+}
+
+.music-title {
+  color: rgb(255, 244, 215);
+  font-size: clamp(2rem, 5vw, 5rem);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: inherit;
+  font-family: 'PT Serif', serif;
+  text-shadow: 2px 2px 4px rgb(23, 23, 23);
+}
+
+.music-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.music-nav .navbar-link {
+  padding: 5px !important;
+  text-align: left; 
+}

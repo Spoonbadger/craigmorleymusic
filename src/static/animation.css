@@ -1,0 +1,31 @@
+/* .fade-in {
+    opacity: 0;
+    filter: blur(5px);
+    animation: fadeInScale 1.3s ease-out forwards;
+  }
+  
+  .title-name {
+    animation-delay: 0s;
+  }
+  
+  .navbar-link {
+    animation-delay: 0.1s;
+  }
+  
+  .subtitle-name {
+    animation-delay: 1.4s;
+  } */
+  
+  /* @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: translateY(10px) scale(0.9);
+      filter: blur(5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      filter: blur(0);
+    }
+  } */
+  
