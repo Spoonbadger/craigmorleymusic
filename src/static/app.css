@@ -1,6 +1,7 @@
 /* Body and background */
 body {
-  background-image: url('/images/Screenshot 2023-05-30 at 6.17.57 PM.png');
+  background-color: #000;
+  background-image: url('/images/Screenshot 2023-05-30 at 6.17.57 PM.webp');
   background-attachment: fixed;
   place-items: center;
   background-position: bottom right;
