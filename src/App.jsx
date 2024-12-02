@@ -1,6 +1,5 @@
 import './static/app.css'
 import './static/fonts.css'
-import './static/animation.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import HomeView from './components/home/HomeView'

@@ -3,7 +3,6 @@ import { Link, useLocation, useNavigate } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../static/app.css'
 import '../../static/fonts.css'
-import '../../static/animation.css'
 
 
 const NavbarMusic = () => {
