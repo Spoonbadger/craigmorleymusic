@@ -40,7 +40,7 @@ const ContactForm = () => {
     <div>
       {successMessage && <p className='rukulo-regular' style={{ fontFamily: 'ruluko', color: 'lightgreen', fontSize: '2rem' }}>{successMessage}</p>}
       <div className="contact-form-container">
-        <div className='ruluko-regular' style={{ fontFamily: 'ruluko', textAlign: 'center', marginBottom: '15px', minWidth: '300px' }} >Contact Form</div>
+        <div className='ruluko-regular' style={{ fontFamily: 'ruluko', textAlign: 'left', marginBottom: '15px', minWidth: '300px' }} >Contact Form</div>
 
       <Form className="contact-form input-width ruluko-regular" onSubmit={onSubmit} >
         {/* Name input */}

@@ -40,7 +40,6 @@ const HomeView = () => {
         setMusicHidden(!musicHidden)
     }
 
-    // One way to improve, have each letter of title name appear at a time (see tutorial)
   return (
     <div className="app-container">
         <div className='content fade-in'>

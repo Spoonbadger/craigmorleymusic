@@ -1,4 +1,3 @@
-import '../../static/music.css'
 import '../../static/app.css'
 import NavbarMusic from '../navbar/navbar'
 import { motion } from 'framer-motion'
@@ -25,10 +24,10 @@ const MusicView = () => {
           <motion.a 
             onClick={() => navigate('/', {state: { fromAbout: true } })}
             className='about-title'
-            initial={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem' : {} }}
-            animate={{ fontSize: 'clamp(2rem, 5vw, 5rem)' }}
+            initial={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem)' : '5rem' }}
+            animate={{ fontSize: '5rem' }}
             transition={{ duration: 1, ease: 'easeOut' }}
-            exit={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem' : {} }}
+            exit={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem)' : '5rem' }}
             >craig morley
         </motion.a>
         <motion.div className='about-nav'

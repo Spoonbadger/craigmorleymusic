@@ -1,4 +1,3 @@
-import '../../static/music.css'
 import NavbarMusic from '../navbar/navbar'
 import '../../static/app.css'
 import '../../static/fonts.css'
@@ -37,10 +36,10 @@ const ContactView = () => {
         <motion.a
           onClick={() => navigate('/')}
           className='about-title'
-          initial={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem)' : {} }}
-          animate={{ fontSize: 'clamp(2rem, 5vw, 5rem)' }}
+          initial={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem)' : '5rem' }}
+          animate={{ fontSize: '5rem' }}
           transition={{ duration: 1, ease: 'easeOut'}}
-          exit={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem' : {} }}
+          exit={{ fontSize: isHomePage ? 'clamp(4rem, 9vw, 9rem)' : '5rem' }}
           >
           craig morley
         </motion.a>
@@ -50,7 +49,7 @@ const ContactView = () => {
             transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
             exit={{  }}
           >
-            <NavbarMusic />
+          <NavbarMusic />
         </motion.div>
         <motion.div className='contact-donate-wrapper'
           initial={{ opacity: 0, x: 60 }}
@@ -59,7 +58,7 @@ const ContactView = () => {
           exit={{ opacity: 0, x: -150, transition: { duration: 0.3, delay: 0.2 } }}
           >
           <ContactForm />
-          <div style={{ marginLeft: '150px' }}>
+          <div className="invest-button-buffer">
             <div id="invest-container" className="invest-container">
               <stripe-buy-button
                 buy-button-id="buy_btn_1Q1384IdaV2VtQr7G5JMPHpr"

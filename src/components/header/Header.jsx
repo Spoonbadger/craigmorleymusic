@@ -18,7 +18,7 @@ const Header = () => {
             onClick={() => navigate('/')}
             className='about-title'
             initial={{ fontSize: 'clamp(4rem, 9vw, 9rem' }}
-            animate={{ fontSize: 'clamp(2.4rem, 7vw, 7rem)' }}
+            animate={{ fontSize: '2.4rem, 7vw, 7rem' }}
             transition={{ duration: 1, ease: 'easeOut' }}
             exit={{ fontSize: 'clamp(4rem, 9vw, 9rem' }}
             >craig morley
