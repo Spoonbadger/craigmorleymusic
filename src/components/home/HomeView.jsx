@@ -42,6 +42,13 @@ const HomeView = () => {
 
   return (
     <div className="app-container">
+
+        {/* Video background */}
+        {/* <video className="video-background" autoPlay loop muted>
+          <source src="/LMM%20YT%201-VEED.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> */}
+
         <div className='content fade-in'>
         <motion.a
             href="/"

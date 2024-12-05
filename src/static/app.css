@@ -8,6 +8,16 @@ body {
   background-size: 100% 100%;
 }
 
+/* .video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
+  border: 1px solid red;
+} */
 
 .background-overlay {
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
